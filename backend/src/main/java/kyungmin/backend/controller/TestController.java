@@ -1,4 +1,4 @@
-package yagroup.imc.backend.controller;
+package kyungmin.backend.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

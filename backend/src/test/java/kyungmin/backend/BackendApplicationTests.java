@@ -1,4 +1,4 @@
-package yagroup.imc.backend;
+package kyungmin.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
