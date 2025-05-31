@@ -1,5 +1,10 @@
 spring:
   application:
     name: backend
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PW}
 
 test: ${TEST}

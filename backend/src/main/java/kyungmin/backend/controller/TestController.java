@@ -2,7 +2,6 @@ package kyungmin.backend.controller;
 
 import jakarta.validation.Valid;
 import kyungmin.backend.controller.request.CreateTestRequest;
-import kyungmin.backend.domain.TestEntity;
 import kyungmin.backend.service.TestService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
