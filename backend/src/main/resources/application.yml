@@ -15,4 +15,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
+  data:
+    redis:
+      url: ${REDIS_URL}
+      repositories:
+        enabled: false
+
 test: ${TEST}
